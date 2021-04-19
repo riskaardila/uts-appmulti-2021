@@ -15,17 +15,17 @@ class Mahasiswa extends KetuaHima {
   String get_jurusan(prodi) {
     if (prodi >= 1) {
       _jurusan = 'Rekayasa Perangkat Lunak';
-    } else if (prodi >= 2) {
+    } if (prodi >= 2) {
       _jurusan = 'Teknik Listrik';
-    } else if (prodi >= 3) {
+    } if (prodi >= 3) {
       _jurusan = 'ADM';
-    } else if (prodi >= 4) {
+    } if (prodi >= 4) {
       _jurusan = 'AKP';
-    } else if (prodi >= 5) {
+    } if (prodi >= 5) {
       _jurusan = 'Bahasa Inggris';
-    } else if (prodi >= 6) {
+    } if (prodi >= 6) {
       _jurusan = 'Teknik Sipil';
-    } else if (prodi >= 7) {
+    } if (prodi >= 7) {
       _jurusan = 'Teknik Mesin';
     }
     return _jurusan;
